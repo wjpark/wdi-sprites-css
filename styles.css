@@ -1,0 +1,59 @@
+body {
+	background-color: #CBD2DA;
+}
+
+#container {
+	width: 800px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+#text_box {
+	background-color: white;
+	font-family: sans-serif;
+	padding: 20px;
+	
+}
+
+.sprite {
+	background-image: url("images/menu-sprite.jpg");
+	height: 65px;
+	display: inline-block;
+}
+
+.home {
+	background-position: 0 -140px;
+	width: 125px;
+}
+
+.home:hover {
+	background-position: 0 -70px;
+}
+
+.about {
+	background-position: -125px 0;
+	width: 120px;
+}
+
+.about:hover {
+	background-position: -125px -70px;
+}
+
+.about:active {
+	background-position: -125px -140px;
+}
+
+.contact {
+	background-position: -245px 0;
+	width: 170px;
+}
+
+.contact:hover {
+	background-position: -245px -70px;
+}
+
+.contact:active {
+	background-position: -245px -140px;
+}
+
+
